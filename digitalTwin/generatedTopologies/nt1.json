@@ -1,0 +1,545 @@
+{
+    "ietf-network:networks": {
+      "network": [
+        {
+          "network-id": "be5229af-2660-4bae-8f2c-b9d0f788fad1",
+          "node": [
+            {
+              "node-id": "O-RAN-SMO",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-SMO-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-SMO-A1"
+                },
+                {
+                  "tp-id": "O-RAN-SMO-O1"
+                },
+                {
+                  "tp-id": "O-RAN-SMO-O2"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-NearRtRic-00",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-NearRtRic-00-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-NearRtRic-00-A1"
+                },
+                {
+                  "tp-id": "O-RAN-NearRtRic-00-O1"
+                },
+                {
+                  "tp-id": "O-RAN-NearRtRic-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-NearRtRic-00-E2"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-CU-00-00",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-CU-00-00-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-CU-00-00-E2"
+                },
+                {
+                  "tp-id": "O-RAN-CU-00-00-O1"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-O-Cloud-DU-00-00-00",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-Tower-00-00-00-00",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                },
+                {
+                  "tp-id": "O-RAN-O-Cloud-DU-00-00-00-O2"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-RU-00-00-00-00-00",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-00-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-00-OFHM"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-00-OFHC"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-00-OFHU"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-00-OFHS"
+                },
+                {
+                  "tp-id": "O-RAN-NRCellDu-00-00-00-00-00-00"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-DU-00-00-00-00-00",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-E2"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-O1"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-OFHM"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-OFHC"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-OFHU"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-00-OFHS"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-RU-00-00-00-00-01",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-01-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-01-OFHM"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-01-OFHC"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-01-OFHU"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-01-OFHS"
+                },
+                {
+                  "tp-id": "O-RAN-NRCellDu-00-00-00-00-01-00"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-DU-00-00-00-00-01",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-E2"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-O1"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-OFHM"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-OFHC"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-OFHU"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-01-OFHS"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-RU-00-00-00-00-02",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-02-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-02-OFHM"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-02-OFHC"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-02-OFHU"
+                },
+                {
+                  "tp-id": "O-RAN-RU-00-00-00-00-02-OFHS"
+                },
+                {
+                  "tp-id": "O-RAN-NRCellDu-00-00-00-00-02-00"
+                }
+              ]
+            },
+            {
+              "node-id": "O-RAN-DU-00-00-00-00-02",
+              "ietf-network-topology:termination-point": [
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-PHY"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-E2"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-O1"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-OFHM"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-OFHC"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-OFHU"
+                },
+                {
+                  "tp-id": "O-RAN-DU-00-00-00-00-02-OFHS"
+                }
+              ]
+            }
+          ],
+          "ietf-network-topology:link": [
+            {
+              "link-id": "phy:O-RAN-NearRtRic-00<->O-RAN-SMO",
+              "source": {
+                "source-node": "O-RAN-NearRtRic-00",
+                "source-tp": "O-RAN-NearRtRic-00-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-SMO",
+                "dest-tp": "O-RAN-SMO-PHY"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-CU-00-00<->O-RAN-NearRtRic-00",
+              "source": {
+                "source-node": "O-RAN-CU-00-00",
+                "source-tp": "O-RAN-CU-00-00-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-NearRtRic-00",
+                "dest-tp": "O-RAN-NearRtRic-00-PHY"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-O-Cloud-DU-00-00-00<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-O-Cloud-DU-00-00-00",
+                "source-tp": "O-RAN-O-Cloud-DU-00-00-00-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-PHY"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-DU-00-00-00-00-00<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-00",
+                "source-tp": "O-RAN-DU-00-00-00-00-00-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-PHY"
+              }
+            },
+            {
+              "link-id": "e2:O-RAN-DU-00-00-00-00-00<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-00",
+                "source-tp": "O-RAN-DU-00-00-00-00-00-E2"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-E2"
+              }
+            },
+            {
+              "link-id": "o1:O-RAN-DU-00-00-00-00-00<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-00",
+                "source-tp": "O-RAN-DU-00-00-00-00-00-O1"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-O1"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-RU-00-00-00-00-00<->O-RAN-DU-00-00-00-00-00",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-00",
+                "source-tp": "O-RAN-RU-00-00-00-00-00-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-00",
+                "dest-tp": "O-RAN-DU-00-00-00-00-00-PHY"
+              }
+            },
+            {
+              "link-id": "ofhm:O-RAN-RU-00-00-00-00-00<->O-RAN-DU-00-00-00-00-00",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-00",
+                "source-tp": "O-RAN-RU-00-00-00-00-00-OFHM"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-00",
+                "dest-tp": "O-RAN-DU-00-00-00-00-00-OFHM"
+              }
+            },
+            {
+              "link-id": "ofhc:O-RAN-RU-00-00-00-00-00<->O-RAN-DU-00-00-00-00-00",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-00",
+                "source-tp": "O-RAN-RU-00-00-00-00-00-OFHC"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-00",
+                "dest-tp": "O-RAN-DU-00-00-00-00-00-OFHC"
+              }
+            },
+            {
+              "link-id": "ofhu:O-RAN-RU-00-00-00-00-00<->O-RAN-DU-00-00-00-00-00",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-00",
+                "source-tp": "O-RAN-RU-00-00-00-00-00-OFHU"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-00",
+                "dest-tp": "O-RAN-DU-00-00-00-00-00-OFHU"
+              }
+            },
+            {
+              "link-id": "ofhs:O-RAN-RU-00-00-00-00-00<->O-RAN-DU-00-00-00-00-00",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-00",
+                "source-tp": "O-RAN-RU-00-00-00-00-00-OFHS"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-00",
+                "dest-tp": "O-RAN-DU-00-00-00-00-00-OFHS"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-DU-00-00-00-00-01<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-01",
+                "source-tp": "O-RAN-DU-00-00-00-00-01-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-PHY"
+              }
+            },
+            {
+              "link-id": "e2:O-RAN-DU-00-00-00-00-01<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-01",
+                "source-tp": "O-RAN-DU-00-00-00-00-01-E2"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-E2"
+              }
+            },
+            {
+              "link-id": "o1:O-RAN-DU-00-00-00-00-01<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-01",
+                "source-tp": "O-RAN-DU-00-00-00-00-01-O1"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-O1"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-RU-00-00-00-00-01<->O-RAN-DU-00-00-00-00-01",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-01",
+                "source-tp": "O-RAN-RU-00-00-00-00-01-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-01",
+                "dest-tp": "O-RAN-DU-00-00-00-00-01-PHY"
+              }
+            },
+            {
+              "link-id": "ofhm:O-RAN-RU-00-00-00-00-01<->O-RAN-DU-00-00-00-00-01",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-01",
+                "source-tp": "O-RAN-RU-00-00-00-00-01-OFHM"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-01",
+                "dest-tp": "O-RAN-DU-00-00-00-00-01-OFHM"
+              }
+            },
+            {
+              "link-id": "ofhc:O-RAN-RU-00-00-00-00-01<->O-RAN-DU-00-00-00-00-01",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-01",
+                "source-tp": "O-RAN-RU-00-00-00-00-01-OFHC"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-01",
+                "dest-tp": "O-RAN-DU-00-00-00-00-01-OFHC"
+              }
+            },
+            {
+              "link-id": "ofhu:O-RAN-RU-00-00-00-00-01<->O-RAN-DU-00-00-00-00-01",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-01",
+                "source-tp": "O-RAN-RU-00-00-00-00-01-OFHU"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-01",
+                "dest-tp": "O-RAN-DU-00-00-00-00-01-OFHU"
+              }
+            },
+            {
+              "link-id": "ofhs:O-RAN-RU-00-00-00-00-01<->O-RAN-DU-00-00-00-00-01",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-01",
+                "source-tp": "O-RAN-RU-00-00-00-00-01-OFHS"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-01",
+                "dest-tp": "O-RAN-DU-00-00-00-00-01-OFHS"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-DU-00-00-00-00-02<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-02",
+                "source-tp": "O-RAN-DU-00-00-00-00-02-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-PHY"
+              }
+            },
+            {
+              "link-id": "e2:O-RAN-DU-00-00-00-00-02<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-02",
+                "source-tp": "O-RAN-DU-00-00-00-00-02-E2"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-E2"
+              }
+            },
+            {
+              "link-id": "o1:O-RAN-DU-00-00-00-00-02<->O-RAN-CU-00-00",
+              "source": {
+                "source-node": "O-RAN-DU-00-00-00-00-02",
+                "source-tp": "O-RAN-DU-00-00-00-00-02-O1"
+              },
+              "destination": {
+                "dest-node": "O-RAN-CU-00-00",
+                "dest-tp": "O-RAN-CU-00-00-O1"
+              }
+            },
+            {
+              "link-id": "phy:O-RAN-RU-00-00-00-00-02<->O-RAN-DU-00-00-00-00-02",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-02",
+                "source-tp": "O-RAN-RU-00-00-00-00-02-PHY"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-02",
+                "dest-tp": "O-RAN-DU-00-00-00-00-02-PHY"
+              }
+            },
+            {
+              "link-id": "ofhm:O-RAN-RU-00-00-00-00-02<->O-RAN-DU-00-00-00-00-02",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-02",
+                "source-tp": "O-RAN-RU-00-00-00-00-02-OFHM"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-02",
+                "dest-tp": "O-RAN-DU-00-00-00-00-02-OFHM"
+              }
+            },
+            {
+              "link-id": "ofhc:O-RAN-RU-00-00-00-00-02<->O-RAN-DU-00-00-00-00-02",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-02",
+                "source-tp": "O-RAN-RU-00-00-00-00-02-OFHC"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-02",
+                "dest-tp": "O-RAN-DU-00-00-00-00-02-OFHC"
+              }
+            },
+            {
+              "link-id": "ofhu:O-RAN-RU-00-00-00-00-02<->O-RAN-DU-00-00-00-00-02",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-02",
+                "source-tp": "O-RAN-RU-00-00-00-00-02-OFHU"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-02",
+                "dest-tp": "O-RAN-DU-00-00-00-00-02-OFHU"
+              }
+            },
+            {
+              "link-id": "ofhs:O-RAN-RU-00-00-00-00-02<->O-RAN-DU-00-00-00-00-02",
+              "source": {
+                "source-node": "O-RAN-RU-00-00-00-00-02",
+                "source-tp": "O-RAN-RU-00-00-00-00-02-OFHS"
+              },
+              "destination": {
+                "dest-node": "O-RAN-DU-00-00-00-00-02",
+                "dest-tp": "O-RAN-DU-00-00-00-00-02-OFHS"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
